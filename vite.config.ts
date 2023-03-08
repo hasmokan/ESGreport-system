@@ -14,7 +14,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: '@import "./src/assets/style/main.scss";'
+        // additionalData: '@import "./src/assets/style/main.scss";' //预定义文件的入口
       }
     }
   }
