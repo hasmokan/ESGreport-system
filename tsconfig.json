@@ -1,6 +1,11 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": ["vite-env.d.ts.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": [
+    "vite-env.d.ts.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "vue.d.ts"
+  ],
   "compilerOptions": {
     "types": ["element-plus/global"],
     "baseUrl": ".",
@@ -10,9 +15,7 @@
     "preserveValueImports": false
   },
 
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "references": [{
+    "path": "./tsconfig.node.json"
+  }]
 }
