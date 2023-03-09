@@ -37,11 +37,17 @@
     width: 100%;
     justify-content: center;
     .warpper {
-        margin-top: 100px;
+        margin-top: 30px;
         width: 80%;
         .header {
+            margin-bottom: 50px;
             .titleTextBox {
-                margin: 0 auto;
+                font-family: "SimHei";
+                font-size: 50px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                margin: 20px 0 20px 0;
             }
             &-line {
                 margin: 0 auto;
@@ -55,6 +61,11 @@
             }
         }
         .middle {
+            width: 100%;
+            .headerimg {
+                display: flex;
+                justify-content: center;
+            }
         }
     }
 }

@@ -60,21 +60,31 @@
                 <div class="header-line"></div>
                 <div class="titleTextBox">ESG报告</div>
               </div>
-
               <span>
                 ESG包含环境(ENVIRONMENTAL)、社会责任(SOCIAL)与公司治理(GOVERNANCE)三个维度。
               </span>
             </div>
-            <div class="middle"></div>
+            <!-- esg报告下面图片后的内容 -->
+            <div class="middle">
+              <div class="headerimg">
+                <img src="src/assets/img/ESG-Criterias.png" alt="ESGimg" />
+              </div>
+              <div class="flexbox">
+                <div class="1"></div>
+                <div class="2"></div>
+                <div class="3"></div>
+              </div>
+            </div>
           </div>
         </div>
       </el-main>
-      <el-footer>Footer</el-footer>
+      <el-footer> </el-footer>
     </el-container>
   </div>
 </template>
 
 <script lang="ts" setup>
+//设置导航激活
 import { ref } from 'vue'
 import { Delete, Edit, Search, Share, Upload } from '@element-plus/icons-vue'
 import { ArrowDown } from '@element-plus/icons-vue'
