@@ -70,9 +70,39 @@
                 <img src="src/assets/img/ESG-Criterias.png" alt="ESGimg" />
               </div>
               <div class="flexbox">
-                <div class="1"></div>
-                <div class="2"></div>
-                <div class="3"></div>
+                <div class="box1">
+                  <ol>
+                    <li>环保政策</li>
+                    <li>绿色技术</li>
+                    <li>环保投入</li>
+                    <li>温室气体排放</li>
+                    <li>员工环保意识</li>
+                    <li>绿色采购政策</li>
+                    <li>.....</li>
+                  </ol>
+                </div>
+                <div class="box2">
+                  <ul>
+                    <li>精准扶贫</li>
+                    <li>产业扶贫</li>
+                    <li>乡村振兴</li>
+                    <li>公益慈善</li>
+                    <li>社区沟通</li>
+                    <li>员工福利与健康</li>
+                    <li>.....</li>
+                  </ul>
+                </div>
+                <div class="box3">
+                  <ul>
+                    <li>股权结构</li>
+                    <li>会计政策</li>
+                    <li>薪酬体系</li>
+                    <li>风险管理</li>
+                    <li>信息披露</li>
+                    <li>反不公平竞争</li>
+                    <li>.....</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
