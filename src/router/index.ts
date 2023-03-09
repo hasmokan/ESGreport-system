@@ -1,21 +1,21 @@
-import { createRouter, createWebHistory,RouteRecordRaw} from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 
-const routes:Array<RouteRecordRaw> = [
-    {
-      path: '/',
-      name: 'Home',
-      component:() => import('../components/home.vue')
-    },
-    {
-      path: '/esg',
-      name:'Esg',
-      component:() => import('../components/esg.vue')
-    }
+const routes: Array<RouteRecordRaw> = [
+  {
+    path: '/',
+    name: 'Home',
+    component: () => import('../components/home/home.vue')
+  },
+  {
+    path: '/esg',
+    name: 'Esg',
+    component: () => import('../components/esg.vue')
+  }
 ]
 
 const router = createRouter({
-  history:createWebHistory(),
+  history: createWebHistory(),
   routes
 })
 

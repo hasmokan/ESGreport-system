@@ -1,13 +1,14 @@
 <template>
-  <div>
-    <input v-model="s" type="text">
-    <div>{{ s }}</div>
+  <div class="App">
+    <router-view></router-view>
   </div>
 </template>
 
-<style>
+<script setup lang="ts"></script>
+
+<style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+}
 </style>
-
-<script setup lang="ts">
-
-</script>

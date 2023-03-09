@@ -1,0 +1,60 @@
+.el-container {
+    //群组选择器
+    & .el-header,
+    .el-main,
+    .el-footer {
+        margin: 0;
+        padding: 0;
+    }
+}
+.el-menu {
+    justify-content: center;
+    align-items: center;
+    &-item {
+        width: 130px;
+    }
+}
+
+.mt-4 {
+    margin-left: 130px;
+}
+
+.headimg {
+    width: 100%;
+    height: auto;
+}
+
+// 下拉菜单
+.example-showcase .el-dropdown-link {
+    cursor: pointer;
+    color: var(--el-color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.centerbody {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .warpper {
+        margin-top: 100px;
+        width: 80%;
+        .header {
+            .titleTextBox {
+                margin: 0 auto;
+            }
+            &-line {
+                margin: 0 auto;
+                width: 100px;
+                height: 10px;
+                background-color: rgb(255, 165, 5);
+            }
+            span {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .middle {
+        }
+    }
+}
