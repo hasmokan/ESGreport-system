@@ -65,7 +65,39 @@
             .headerimg {
                 display: flex;
                 justify-content: center;
+                img {
+                    width: 80%;
+                }
+            }
+            .flexbox {
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
             }
         }
     }
+}
+
+//ESG的各种属性
+.box1,
+.box2,
+.box3 {
+    ul {
+        list-style-type: none;
+    }
+    li {
+        font-family: "SimHei";
+        text-align: center;
+        list-style-type: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    width: 100%;
+}
+
+.box2,
+.box3 {
+    border-left: 2px rgb(255, 165, 5) solid;
 }
