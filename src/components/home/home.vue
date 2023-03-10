@@ -58,7 +58,7 @@
               <!-- 上面的黄色条纹 -->
               <div class="titleBox">
                 <div class="header-line"></div>
-                <div class="titleTextBox">ESG报告</div>
+                <div class="titleTextBox">ESG智能分析</div>
               </div>
               <span>
                 ESG包含环境(ENVIRONMENTAL)、社会责任(SOCIAL)与公司治理(GOVERNANCE)三个维度。
@@ -71,7 +71,7 @@
               </div>
               <div class="flexbox">
                 <div class="box1">
-                  <ol>
+                  <ul>
                     <li>环保政策</li>
                     <li>绿色技术</li>
                     <li>环保投入</li>
@@ -79,7 +79,7 @@
                     <li>员工环保意识</li>
                     <li>绿色采购政策</li>
                     <li>.....</li>
-                  </ol>
+                  </ul>
                 </div>
                 <div class="box2">
                   <ul>
@@ -107,8 +107,63 @@
             </div>
           </div>
         </div>
+        <div class="succ">
+          <div class="succ-header">
+            <div class="succ-header-line"></div>
+            <div class="succ-header-text">成功案例</div>
+            <div class="succ-header-caselist">
+              <img src="src/assets/img/xiaomi.png" alt="" />
+              <img src="src/assets/img/xiaomi.png" alt="" />
+              <img src="src/assets/img/xiaomi.png" alt="" />
+            </div>
+          </div>
+          <div class="succ-case">
+            <img src="src/assets/img/successimg.jpg" alt="" />
+            <div class="succ-case-text">
+              <div class="succ-case-text-line"></div>
+              <div class="succ-case-text-header">成功案例1</div>
+            </div>
+          </div>
+          <div class="succ-case">
+            <div class="succ-case-text">
+              <div class="succ-case-text-line"></div>
+              <div class="succ-case-text-header">成功案例2</div>
+            </div>
+            <img src="src/assets/img/successimg.jpg" alt="" />
+          </div>
+          <div class="succ-case">
+            <img src="src/assets/img/successimg.jpg" alt="" />
+            <div class="succ-case-text">
+              <div class="succ-case-text-line"></div>
+              <div class="succ-case-text-header">成功案例3</div>
+            </div>
+          </div>
+        </div>
       </el-main>
-      <el-footer> </el-footer>
+      <el-footer>
+        <div class="left">
+          <div class="left-box">
+            <ul>
+              <li>使用条款</li>
+              <li>法律声明</li>
+              <li>个人信息保护方针</li>
+              <li>举报政策</li>
+            </ul>
+          </div>
+          <div class="left-icon">
+            <el-icon :size="30" color="rgb(255, 165, 5)"><PhoneFilled /></el-icon>
+            <el-icon :size="30" color="rgb(255, 165, 5)"><LocationFilled /></el-icon>
+            <el-icon :size="30" color="rgb(255, 165, 5)"><ChromeFilled /></el-icon>
+          </div>
+        </div>
+        <div class="right">
+          <div class="imgbox">
+            <img src="src/assets/img/code.png" alt="" class="right-code" />
+            <img src="src/assets/img/xbdx.png" alt="" class="right-img" />
+            <div class="right-text">扫码联系我们</div>
+          </div>
+        </div>
+      </el-footer>
     </el-container>
   </div>
 </template>
