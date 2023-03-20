@@ -56,7 +56,11 @@
 
         <!--页面主体 -->
 
-        <router-view></router-view>
+        <router-view v-slot="{ Component }">
+          <transition name="fade">
+            <component :is="Component" />
+          </transition>
+        </router-view>
 
         <el-footer height="200px">
           <div class="left">
@@ -76,9 +80,11 @@
           </div>
           <div class="right">
             <div class="imgbox">
-              <img src="src/assets/img/code.png" alt="" class="right-code" />
+              <div class="code">
+                <img src="src/assets/img/code.png" alt="" class="right-code" />
+                <div class="right-text">扫码联系我们</div>
+              </div>
               <img src="src/assets/img/xbdx.png" alt="" class="right-img" />
-              <div class="right-text">扫码联系我们</div>
             </div>
           </div>
         </el-footer>

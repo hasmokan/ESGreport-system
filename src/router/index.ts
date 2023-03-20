@@ -9,18 +9,23 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/esg',
-    name: 'Esg',
+    name: 'esg',
     component: () => import('../components/esg/esg.vue')
   },
   {
     path:'/international',
-    name:'International',
+    name:'international',
     component:() => import('../components/international/international.vue')
   },
   {
     path:'/domestic',
     name:'demestic',
     component:() => import('../components/domestic/domestic.vue')
+  },
+  {
+    path:'/esgReport',
+    name:'esgReport',
+    component:() => import('../components/esg/esgReport.vue')
   }
 ]
 

@@ -94,8 +94,8 @@
             justify-content: center;
             align-items: center;
             .el-icon {
-                margin-left: 50px;
-                margin-right: 50px;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
@@ -103,6 +103,7 @@
         overflow: hidden;
         color: whitesmoke;
         display: flex;
+        flex-shrink: 1;
         width: 50%;
         height: 200px;
         // justify-content: center;
@@ -110,13 +111,19 @@
         img {
             width: 100px;
             height: 100px;
-            margin-left: 150px;
+            margin-left: 30%;
         }
-        &-text {
-            margin-left: 150px;
-        }
+        // &-text {
+        //     margin-left: auto;
+        // }
         .imgbox {
+            display: flex;
+            width: 100%;
             border-left: 2px solid grey;
+            justify-content: center;
+            .right-code {
+                margin-left: 0;
+            }
         }
     }
 }
