@@ -35,7 +35,7 @@
                 upload to server
               </el-button>
               <template #tip>
-                <div class="el-upload__tip text-red">仅上传一个文件，再次上传会覆盖前一个文件</div>
+                <!-- <div class="el-upload__tip text-red">仅上传一个文件，再次上传会覆盖前一个文件</div> -->
               </template>
             </el-upload>
           </el-form-item>
@@ -56,7 +56,7 @@
                 upload to server
               </el-button>
               <template #tip>
-                <div class="el-upload__tip text-red">仅上传一个文件，再次上传会覆盖前一个文件</div>
+                <!-- <div class="el-upload__tip text-red">仅上传一个文件，再次上传会覆盖前一个文件</div> -->
               </template>
             </el-upload>
           </el-form-item>
@@ -131,6 +131,7 @@ const handleExceed: UploadProps['onExceed'] = (files) => {
   upload.value!.handleStart(file)
 }
 //上传函数
+
 const submitUpload = () => {
   upload.value!.submit()
 }
