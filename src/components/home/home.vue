@@ -1,6 +1,6 @@
 <template>
   <el-main>
-    <img class="headimg" src="src/assets/img/building-headimg.jpg" alt="" />
+    <img class="headimg" src="/assets/img/building-headimg.jpg" alt="" />
     <!-- 中间对齐的页面 -->
     <div class="centerbody">
       <div class="warpper">
@@ -17,7 +17,7 @@
         <!-- esg报告下面图片后的内容 -->
         <div class="middle">
           <div class="headerimg">
-            <img src="src/assets/img/ESG-Criterias.png" alt="ESGimg" />
+            <img src="/assets/img/ESG-Criterias.png" alt="ESGimg" />
           </div>
           <div class="flexbox">
             <div class="box1">
@@ -62,13 +62,13 @@
         <div class="succ-header-line"></div>
         <div class="succ-header-text">成功案例</div>
         <div class="succ-header-caselist">
+          <!-- <img src="src/assets/img/xiaomi.png" alt="" />
           <img src="src/assets/img/xiaomi.png" alt="" />
-          <img src="src/assets/img/xiaomi.png" alt="" />
-          <img src="src/assets/img/xiaomi.png" alt="" />
+          <img src="src/assets/img/xiaomi.png" alt="" /> -->
         </div>
       </div>
       <div class="succ-case">
-        <img src="src/assets/img/successimg.jpg" alt="" />
+        <img src="/assets/img/successimg.jpg" alt="" />
         <div class="succ-case-text">
           <div class="succ-case-text-line"></div>
           <div class="succ-case-text-header">成功案例1</div>
@@ -79,10 +79,10 @@
           <div class="succ-case-text-line"></div>
           <div class="succ-case-text-header">成功案例2</div>
         </div>
-        <img src="src/assets/img/successimg.jpg" alt="" />
+        <img src="/assets/img/successimg.jpg" alt="" />
       </div>
       <div class="succ-case">
-        <img src="src/assets/img/successimg.jpg" alt="" />
+        <img src="/assets/img/successimg.jpg" alt="" />
         <div class="succ-case-text">
           <div class="succ-case-text-line"></div>
           <div class="succ-case-text-header">成功案例3</div>

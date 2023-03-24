@@ -13,7 +13,7 @@
             @select="handleSelect"
           >
             <img
-              src="src/assets/img/logo (4).png"
+              src="/assets/img/logo.png"
               style="width: 50px; height: 50px; margin-right: 200px"
             />
             <el-menu-item index="1">
@@ -31,7 +31,7 @@
             <!-- 下拉 -->
             <div class="flex flex-wrap items-center">
               <el-dropdown>
-                <el-button type="primary" color="rgb(255,165,5)" :dark="isDark">
+                <el-button type="primary" color="rgb(255,165,5)">
                   系统登陆<el-icon class="el-icon--right"><arrow-down /></el-icon>
                 </el-button>
                 <template #dropdown>
@@ -45,7 +45,7 @@
             </div>
             <!-- 搜索框 -->
             <div class="search">
-              <el-input v-model="input3" placeholder="Please input" class="input-with-select">
+              <el-input placeholder="Please input" class="input-with-select">
                 <template #append>
                   <el-button :icon="Search" />
                 </template>
@@ -81,10 +81,10 @@
           <div class="right">
             <div class="imgbox">
               <div class="code">
-                <img src="src/assets/img/code.png" alt="" class="right-code" />
+                <img src="/assets/img/code.png" alt="" class="right-code" />
                 <div class="right-text">扫码联系我们</div>
               </div>
-              <img src="src/assets/img/xbdx.png" alt="" class="right-img" />
+              <img src="/assets/img/xbdx.png" alt="" class="right-img" />
             </div>
           </div>
         </el-footer>

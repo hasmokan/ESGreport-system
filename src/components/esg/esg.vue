@@ -1,6 +1,6 @@
 <template>
   <div class="internationnal">
-    <img class="headimg" src="src/assets/img/ESG-img (2).jpg" alt="" />
+    <img class="headimg" src="/assets/img/ESG-img.jpg" alt="" />
 
     <div class="centerbody">
       <el-breadcrumb separator="/">
@@ -23,7 +23,7 @@
             <el-upload
               ref="upload"
               class="upload-demo"
-              action="https://run.mocky.io/v3/9d059bf9-4660-45f2-925d-ce80ad6c4d15"
+              action="http://localhost:3000/api"
               :limit="1"
               :on-exceed="handleExceed"
               :auto-upload="false"
@@ -100,10 +100,12 @@
 </template>
 
 <script lang="ts" setup>
+// import axios from 'axios'
+import router from '../../router'
 import { reactive } from 'vue'
 import { ref } from 'vue'
 import { genFileId } from 'element-plus'
-import router from '../../router'
+
 import type { UploadInstance, UploadProps, UploadRawFile } from 'element-plus'
 //表单组件
 const form = reactive({

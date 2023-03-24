@@ -1,6 +1,6 @@
 <template>
   <div class="internationnal">
-    <img class="headimg" src="src/assets/img/international-img.jpg" alt="" />
+    <img class="headimg" :src="img1" alt="" />
 
     <div class="centerbody">
       <el-breadcrumb separator="/">
@@ -10,7 +10,7 @@
       <div class="wrapper">
         <div class="card">
           <div class="card-img">
-            <img src="src/assets/img/cdp.png" alt="" />
+            <img src="/assets/img/cdp.png" alt="" />
           </div>
           <div class="card-text">
             <div class="card-text-head">
@@ -33,7 +33,7 @@
         </div>
         <div class="card">
           <div class="card-img">
-            <img src="src/assets/img/GRI.png" alt="" />
+            <img src="/assets/img/GRI.png" alt="" />
           </div>
           <div class="card-text">
             <div class="card-text-head">
@@ -53,7 +53,7 @@
         </div>
         <div class="card">
           <div class="card-img">
-            <img src="src/assets/img/IIRC.png" alt="" />
+            <img src="/assets/img/IIRC.png" alt="" />
           </div>
           <div class="card-text">
             <div class="card-text-head">
@@ -79,7 +79,9 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import img1 from '/assets/img/international-img.jpg'
+</script>
 
 <style lang="scss" scoped>
 @import './international.scss';
