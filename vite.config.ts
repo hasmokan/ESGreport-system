@@ -24,11 +24,10 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit:250000,
     rollupOptions: {
-      external: ['*.vue','element-plus'],
+      external: [],
       plugins:[
         externalGlobals({
-          vue:'Vue',
-          'element-plus':'ElementPlus',
+
         })
       ]
     },
