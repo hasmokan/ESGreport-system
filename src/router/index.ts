@@ -1,31 +1,35 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-
+import home from '../components/home/home.vue'
+import esg from '../components/esg/esg.vue'
+import inter from '../components/international/international.vue'
+import deme from '../components/domestic/domestic.vue'
+import eg from '../components/esg/esgReport.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Home',
-    component: () => import('../components/home/home.vue')
+    component: home,
   },
   {
     path: '/esg',
     name: 'esg',
-    component: () => import('../components/esg/esg.vue')
+    component: esg,
   },
   {
     path:'/international',
     name:'international',
-    component:() => import('../components/international/international.vue')
+    component: inter,
   },
   {
     path:'/domestic',
     name:'demestic',
-    component:() => import('../components/domestic/domestic.vue')
+    component:deme,
   },
   {
     path:'/esgReport',
     name:'esg-report',
-    component:() => import('../components/esg/esgReport.vue')
+    component:eg,
   },
 ]
 
