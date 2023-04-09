@@ -4,10 +4,15 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
+    "*.ts",
     "src/**/*.vue",
-    "*.ts"
+  ],
+  "exclude": [
+
   ],
   "compilerOptions": {
+
+    "allowJs": true,
     "target": "esnext",
     "module": "esnext",
     "useDefineForClassFields": true,

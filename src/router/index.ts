@@ -24,9 +24,9 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path:'/esgReport',
-    name:'esgReport',
+    name:'esg-report',
     component:() => import('../components/esg/esgReport.vue')
-  }
+  },
 ]
 
 const router = createRouter({
